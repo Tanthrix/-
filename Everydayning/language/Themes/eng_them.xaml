@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="с1">Set a deafault them</v:String>
+    <v:String x:Key="с2">Set the dark them</v:String>
+    <v:String x:Key="с3">Set the light them</v:String>
+    <v:String x:Key="с4">Set russian language</v:String>
+    <v:String x:Key="с5">Set english language</v:String>
+    <v:String x:Key="b1">Add a new type of note</v:String>
+    <v:String x:Key="b2">Add a note</v:String>
+    <v:String x:Key="b3">Update a note</v:String>
+    <v:String x:Key="b4">Delete a note</v:String>
+    <v:String x:Key="b5">Add type</v:String>
+    <v:String x:Key="l1">Name</v:String>
+    <v:String x:Key="l2">Type</v:String>
+    <v:String x:Key="l3">Amount</v:String>
+    <v:String x:Key="l4">Rezult:</v:String>
+    <v:String x:Key="l5">Title a new type</v:String>
+</ResourceDictionary>

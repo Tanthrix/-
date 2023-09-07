@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uxDWwLaHt1iOSFH+q2G6DnX3AjTjEXKpTPge0WUmYPv2jAHsZHTn+62oZTPen8JHVy7nBQdVSQY5DR8TRTXz5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Juras\\source\\repos\\MVVM_7\\MVVM_7\\MVVM_7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juras\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Juras\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

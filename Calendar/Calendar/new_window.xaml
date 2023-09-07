@@ -1,0 +1,18 @@
+﻿<Window x:Class="Calendar.new_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calendar"
+        mc:Ignorable="d"
+        Title="new_do" Height="450" Width="600"
+        ResizeMode="NoResize" Closed="Window_Closed">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Выберите действие на выбранный день" Width="414" FontSize="22" TextAlignment="Center" Height="35" VerticalAlignment="Top"/>
+        <ListBox x:Name="lb" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,45,0,40" Visibility="Hidden" SelectionChanged="lb_SelectionChanged"/>
+        <Button x:Name="bt_goto_back" Content="Назад" Margin="0,0,10,10" FontSize="16" Click="Button_Click" HorizontalAlignment="Right" Width="103" Height="25" VerticalAlignment="Bottom" Visibility="Hidden"/>
+        <Button x:Name="bt1" Content="Тренировки" HorizontalAlignment="Center" Margin="0,0,0,286" Width="184" FontSize="20" Click="Click_1" Height="75" VerticalAlignment="Bottom"/>
+        <Button x:Name="bt2" Content="Еда" HorizontalAlignment="Center" Margin="0,0,0,181" Width="184" FontSize="24" Click="Click_2" Height="82" VerticalAlignment="Bottom"/>
+        <Button x:Name="bt3" Content="Прогать" HorizontalAlignment="Center" Margin="0,0,0,77" Width="184" FontSize="24" Click="Click_3" Height="82" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

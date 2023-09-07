@@ -1,0 +1,4 @@
+body{ font-family:'Times New Roman'; font-size:1em; }
+ul, ol{ margin-top: 0; margin-bottom: 0; }
+   ins{color:#2E97D3;}    del{color:#FF0000;} 
+.Normal{page-break-inside:auto;page-break-after:auto;page-break-before:auto;margin-top:0pt;margin-bottom:0pt;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:12pt;font-family:'Times New Roman';mso-fareast-font-family:'Times New Roman';lang:EN-US;mso-fareast-language:UK-UA;mso-ansi-language:AR-SA;}

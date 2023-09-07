@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calendar.csproj", "{48A87A15-B39B-453F-97A7-5883A4EAA2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "function", "function\function.csproj", "{4157947E-F165-46EA-AE79-1BBBED8707BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A87A15-B39B-453F-97A7-5883A4EAA2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A87A15-B39B-453F-97A7-5883A4EAA2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A87A15-B39B-453F-97A7-5883A4EAA2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A87A15-B39B-453F-97A7-5883A4EAA2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4157947E-F165-46EA-AE79-1BBBED8707BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4157947E-F165-46EA-AE79-1BBBED8707BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4157947E-F165-46EA-AE79-1BBBED8707BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4157947E-F165-46EA-AE79-1BBBED8707BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6395611-2CB7-4648-910C-25076F2FEA81}
+	EndGlobalSection
+EndGlobal

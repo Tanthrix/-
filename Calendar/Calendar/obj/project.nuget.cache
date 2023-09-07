@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SYHA8Mqu6M8mc1yxFUBBj8AB9tR03D60CYxvYoVSCeNjRqY1bG8LIet8YuPju+XL5SDa1oSUN8L8DyLInbeX5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\шарага\\repos\\Calendar\\Calendar\\Calendar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

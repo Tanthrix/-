@@ -1,0 +1,48 @@
+﻿<Window x:Class="MVVM_7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVM_7" 
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static SystemCommands.MinimizeWindowCommand}" CanExecute="CanExecute" Executed="Hide" />
+    </Window.CommandBindings>
+    <Grid>
+        <DatePicker x:Name="datka" FirstDayOfWeek="Monday" SelectedDateFormat="Long" SelectedDate="{Binding Dt}" Height="24" VerticalAlignment="Top" Margin="10">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="CalendarClosed">
+                    <i:InvokeCommandAction Command="{Binding Vib_Data}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </DatePicker>
+        <DataGrid x:Name="dg" Margin="10,39,0,44" HorizontalAlignment="Left" Width="393" ItemsSource="{Binding Users}" SelectedIndex="{Binding Index}">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction Command="{Binding Set}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </DataGrid>
+        <Label Content="Имя записи" Margin="0,54,59,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" />
+        <TextBox x:Name="tb1" Margin="0,80,10,0" TextWrapping="Wrap" Text="{Binding Name_record}" VerticalAlignment="Top" Height="18" HorizontalAlignment="Right" Width="169"/>
+        <Label Content="Тип записи" Margin="0,103,59,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="71"/>
+        <ComboBox x:Name="cb2" Margin="0,134,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="169" ItemsSource="{Binding Naz}" SelectedIndex="{Binding Selected_index}"/>
+        <Button Content="Добавить новый тип записи" Margin="0,161,10,0" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Width="169" RenderTransformOrigin="0.5,0.5">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <i:InvokeCommandAction Command="{Binding Add_type}"/>
+                    <i:CallMethodAction MethodName="Hide" TargetObject="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        <Label Content="Сумма денег" Margin="0,197,55,0" HorizontalAlignment="Right" Width="80" Height="26" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb3" Margin="0,228,10,0" TextWrapping="Wrap" HorizontalAlignment="Right" Width="169" Height="18" VerticalAlignment="Top" Text="{Binding Text_summ}"/>
+        <Button Content="Удалить запись" Margin="0,0,10,10" HorizontalAlignment="Right" Width="169" Height="20" VerticalAlignment="Bottom" Command="{Binding Delete_record}"/>
+        <Button Content="Изменить запись" Margin="0,0,10,35" HorizontalAlignment="Right" Width="169" Height="20" VerticalAlignment="Bottom" Command="{Binding Update_record}"/>
+        <Button Content="Добавить запись" Margin="0,0,10,60" HorizontalAlignment="Right" Width="169" Height="20" VerticalAlignment="Bottom" Command="{Binding write}"/>
+        <Label Content="Итог:" HorizontalAlignment="Left" Margin="245,0,0,7" Width="41" Height="26" VerticalAlignment="Bottom"/>
+        <Label x:Name="cena" Content="{Binding Count}" HorizontalAlignment="Left" Margin="284,0,0,7" Height="26" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

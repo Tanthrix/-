@@ -1,0 +1,27 @@
+﻿<Window x:Class="Everydayning.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Everydayning"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600"
+        ResizeMode="NoResize">
+    <Grid>
+        <DatePicker x:Name="Date" FirstDayOfWeek="Monday" SelectedDateFormat="Long" SelectedDate="2023-04-04" Height="24" VerticalAlignment="Top" Margin="10" DisplayDate="2023-04-04" CalendarClosed="datka_CalendarClosed"/>
+        <DataGrid x:Name="datagrid" Margin="10,39,0,44" HorizontalAlignment="Left" Width="393" SelectionChanged="dg_SelectionChanged"/>
+        <Label Content="Имя записи" Margin="0,54,59,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75"/>
+        <TextBox x:Name="textbox1" Margin="0,80,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="18" HorizontalAlignment="Right" Width="169"/>
+        <Label Content="Тип записи" Margin="0,103,59,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="71"/>
+        <ComboBox x:Name="combobox2" Margin="0,134,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="169"/>
+        <Button Content="Добавить новый тип записи" Margin="0,161,10,0" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Width="169" Click="Button_Click_1"/>
+        <Label Content="Сумма денег" Margin="0,197,55,0" HorizontalAlignment="Right" Width="80" Height="26" VerticalAlignment="Top"/>
+        <TextBox x:Name="textbox3" Margin="0,0,10,188" TextWrapping="Wrap" HorizontalAlignment="Right" Width="169" Height="18" VerticalAlignment="Bottom"/>
+        <Button Content="Удалить запись" Margin="0,0,10,10" HorizontalAlignment="Right" Width="169" Height="20" VerticalAlignment="Bottom" Click="Button_Click_2"/>
+        <Button Content="Изменить запись" Margin="0,0,10,35" HorizontalAlignment="Right" Width="169" Height="20" VerticalAlignment="Bottom" Click="Button_Click_3"/>
+        <Button Content="Добавить запись" Margin="0,0,10,60" HorizontalAlignment="Right" Width="169" Height="20" VerticalAlignment="Bottom" Click="Button_Click"/>
+        <Label Content="Итог:" HorizontalAlignment="Left" Margin="245,0,0,7" Width="41" Height="26" VerticalAlignment="Bottom"/>
+        <Label x:Name="rezult" Content="0" HorizontalAlignment="Left" Margin="284,0,0,7" Height="26" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>

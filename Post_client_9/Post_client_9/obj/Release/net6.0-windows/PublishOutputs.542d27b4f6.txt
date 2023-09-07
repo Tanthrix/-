@@ -1,0 +1,13 @@
+C:\Users\Juras\OneDrive\Рабочий стол\Post_client_9.exe
+C:\Users\Juras\OneDrive\Рабочий стол\Post_client_9.dll
+C:\Users\Juras\OneDrive\Рабочий стол\Post_client_9.deps.json
+C:\Users\Juras\OneDrive\Рабочий стол\Post_client_9.runtimeconfig.json
+C:\Users\Juras\OneDrive\Рабочий стол\Post_client_9.dll.config
+C:\Users\Juras\OneDrive\Рабочий стол\Post_client_9.pdb
+C:\Users\Juras\OneDrive\Рабочий стол\ImapX.dll
+C:\Users\Juras\OneDrive\Рабочий стол\MaterialDesignColors.dll
+C:\Users\Juras\OneDrive\Рабочий стол\MaterialDesignThemes.Wpf.dll
+C:\Users\Juras\OneDrive\Рабочий стол\Microsoft.Xaml.Behaviors.dll
+C:\Users\Juras\OneDrive\Рабочий стол\SautinSoft.HtmlToRtf.dll
+C:\Users\Juras\OneDrive\Рабочий стол\Spire.Doc.dll
+C:\Users\Juras\OneDrive\Рабочий стол\System.Xml.XPath.XmlDocument.dll

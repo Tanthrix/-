@@ -1,0 +1,25 @@
+﻿<Window x:Class="MVVM_7.View.dialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:local="clr-namespace:MVVM_7.View"
+        mc:Ignorable="d"
+        Title="dialog" Height="200" Width="200" MinHeight="200" MaxHeight="200" MinWidth="200" MaxWidth="200">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static SystemCommands.MinimizeWindowCommand}" CanExecute="CanExecute" Executed="Hide" />
+    </Window.CommandBindings>
+    <Grid>
+        <Button Content="Добавить" Margin="70,92,0,0" HorizontalAlignment="Left" Width="60" Height="20" VerticalAlignment="Top">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <i:InvokeCommandAction Command="{Binding Next}"/>
+                    <i:CallMethodAction MethodName="Hide" TargetObject="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+        <TextBox x:Name="tb" Margin="10,55,10,0" TextWrapping="Wrap" Height="18" VerticalAlignment="Top" Text="{Binding New_type}"/>
+        <Label Content="Название нового типа" Margin="0,29,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Center" Width="180" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>

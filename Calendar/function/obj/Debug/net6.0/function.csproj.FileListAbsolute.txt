@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\шарага\repos\Calendar\function\bin\Debug\net6.0\function.deps.json
+C:\Users\user\Desktop\шарага\repos\Calendar\function\bin\Debug\net6.0\function.dll
+C:\Users\user\Desktop\шарага\repos\Calendar\function\bin\Debug\net6.0\function.pdb
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\function.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\function.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\function.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\function.AssemblyInfo.cs
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\function.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\function.dll
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\refint\function.dll
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\function.pdb
+C:\Users\user\Desktop\шарага\repos\Calendar\function\obj\Debug\net6.0\ref\function.dll

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Messanger.chat_admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Messanger"
+        mc:Ignorable="d"
+        Title="chat_admin" Height="450" Width="800" Closed="WindowClosed">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=" 0.25*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="0.3*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.3*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="MsgLB" Grid.Row="1"/>
+        <ListBox x:Name="UsersLB" Grid.Row="1" Grid.Column="2"/>
+        <ListBox x:Name="LogsLB"/>
+        <Button x:Name="SendBTN" Grid.Column="1" Grid.Row="2" Content="Send" FontSize="36px" FontWeight="Medium" Click="SendBTN_Click"/>
+        <TextBox x:Name="MsgTB" Grid.Row="2" Text="message" FontSize="24px" FontWeight="Light" TextWrapping="Wrap"/>
+        <Button x:Name="ExitBTN" Grid.Column="1" Content="Leave chat" FontSize="24px" FontWeight="Medium" Click="ExitBTN_Click"/>
+    </Grid>
+</Window>

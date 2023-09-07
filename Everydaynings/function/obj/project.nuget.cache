@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rw6XuhTKMvi0K4odSDD3on4+NcdEf8Zn1oeOKU9lfILXfs8ksdWz0cjdG6lQj1T+5PKqyamDTmdtrKsM7yp7rg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\Everydaynings\\function\\function.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

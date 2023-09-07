@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zv56upCTyJOMAKBFY2oWRe0KAqDTjYLjGXRaeAy0p/lS3r9UlHVwRJz79G5LFBwbahySEGB7UdFuXviS4GLSbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\psgad\\Desktop\\Everydayning\\Everydayning\\Everydayning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\psgad\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

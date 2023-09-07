@@ -1,0 +1,21 @@
+﻿<Window x:Class="Post_client_9.MainWindow"
+        xmlns:m="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Post_client_9"
+        mc:Ignorable="d"
+        Title="Auth" Height="300" Width="500" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="login" Margin="10,70,142,0" TextWrapping="Wrap" m:HintAssist.Hint="Логин" VerticalAlignment="Top" Height="34" FontSize="20" Foreground="White" FontWeight="Bold"/>
+        <PasswordBox x:Name="password" Margin="10,161,10,0"  m:HintAssist.Hint="Пароль" VerticalAlignment="Top" Height="34" FontSize="20" Foreground="White" FontWeight="Bold"/>
+        <ComboBox x:Name="cb" Margin="370,69,10,0" VerticalAlignment="Top" FontSize="20" Foreground="White">
+            <ComboBoxItem Content="Mail" Tag="imap.mail.ru" Background="#FF544141" />
+            <ComboBoxItem Content="Yandex" Tag="imap.yandex.ru" Background="#FF544141"/>
+            <ComboBoxItem Content="Rambler" Tag="imap.rambler.ru" Background="#FF544141"/>
+            <ComboBoxItem Content="Google" Tag="imap.gmail.com" Background="#FF544141"/>
+        </ComboBox>
+        <Button Content="Войти" Margin="10,223,10,0" VerticalAlignment="Top" HorizontalAlignment="Center" BorderBrush="#FF4A405C" Click="Button_Click"/>
+    </Grid>
+</Window>
